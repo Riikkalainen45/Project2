@@ -1,0 +1,22 @@
+[
+    {
+        "username": "Kim",
+        "message": "Really nice place to visit",
+        "country": "Korea"
+    },
+    {
+        "username": "Riikkalainen",
+        "message": "Sarvikallio area has nice hiking paths",
+        "country": "Finland"
+    },
+    {
+        "username": "Leo",
+        "message": "Nature was beautiful.",
+        "country": "Canada"
+    },
+    {
+        "username": "Dennis",
+        "message": "I'll be back -really beautiful lake area...",
+        "country": "UK"
+    }
+]

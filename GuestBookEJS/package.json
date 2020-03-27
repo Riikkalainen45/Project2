@@ -1,0 +1,27 @@
+{
+  "name": "guestbookejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "template.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riikkalainen45/Project2.git"
+  },
+  "author": "Riikkalainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riikkalainen45/Project2/issues"
+  },
+  "homepage": "https://github.com/Riikkalainen45/Project2#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  }
+}

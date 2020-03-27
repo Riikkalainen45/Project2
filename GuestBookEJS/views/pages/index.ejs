@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head') %>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body class="container">
+
+    <header>
+        <%- include('../partials/header') %>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h2>Visit Lake Tuusula!</h2>
+        </div>
+        <div>
+
+            <br><br>
+
+            <div class="row">
+                <div class="column" style="background-color:#aaa;">
+                    <h2>Tuusula</h2><br>
+                    <p>
+                        Visiting Lake Tuusula, which is located only half an hour from Helsinki and 15 minutes from
+                        Helsinki-Vantaa
+                        airport, is like experiencing the whole of Finland in miniature. Our lakeside is attractive and
+                        tranquil and
+                        it is difficult to believe you are not far from the capital city!
+                        Historical artists’ villas tell you the story of how Finnish culture was created. Come and enjoy
+                        the area,
+                        with its peacefulness and rich cultural heritage, at your leisure.</p>
+                </div>
+                <div class="column" style="background-color:#bbb;">
+
+                    <img src="img/kuva.jpg" alt="TuusulaLake" height="300" width="500">
+                </div>
+                <div class="column" style="background-color:#ccc;">
+                    <img src="img/kuva2.jpg" alt="TuusulaLake" height="250" width="500">
+                </div>
+                <div class="column" style="background-color:#aaa;">
+                    <h2>Lake</h2><br>
+                    <p>Visiting Lake Tuusula, which is located only half an hour from Helsinki and 15 minutes from
+                        Helsinki-Vantaa
+                        airport, is like experiencing the whole of Finland in miniature. Our lakeside is attractive and
+                        tranquil and
+                        it is difficult to believe you are not far from the capital city!
+                        Historical artists’ villas tell you the story of how Finnish culture was created. Come and enjoy
+                        the area,
+                        with its peacefulness and rich cultural heritage, at your leisure.</p>
+                </div>
+            </div>
+
+        </div>
+    </main><br>
+
+    <footer>
+        <%- include('../partials/footer') %>
+    </footer>
+</body>
+
+</html>
